@@ -1,4 +1,3 @@
-# PedeAi
 # PedeAí
 
 > Plataforma de delivery focada no *comércio local*: restaurantes, padarias, mercadinhos e lojas de bairro de cidades pequenas e médias, com taxas menores que os grandes apps.
@@ -136,12 +135,7 @@ Em cada volta seguimos as 4 fases do Espiral:
 3. **Engenharia**: projetar, codificar e testar.
 4. **Avaliação**: revisar com o "cliente" (usuários de teste) e planejar a próxima volta.
 
-> **Cascata** seria mais adequado para projetos com requisitos fixos e bem conhecidos desde o início (ex.: sistema de um órgão público com contrato fechado). Não é o caso aqui.
-### Práticas ágeis complementares
-
-- **Kanban** no GitHub Projects (colunas: Backlog → Em andamento → Em revisão → Concluído).
-- **Sprints curtas de 2 semanas** dentro de cada volta do Espiral.
-- **Histórias de usuário** como formato dos requisitos. Exemplo: *"Como cliente, quero acompanhar meu pedido em tempo real para saber quando ele vai chegar."*
+> **Cascata** seria mais adequado para projetos com requisitos fixos e bem conhecidos desde o início (ex.: sistema de um órgão público com contrato fechado). Não é o caso aqui
 
 ### Uso do Git e do GitHub
 **Estratégia de branches (GitHub Flow adaptado)**
@@ -174,7 +168,6 @@ test: adiciona testes para módulo de pedidos
 
 ##  Projeto de Interface
 
-Os protótipos de alta fidelidade ficam no Figma: **[link do protótipo no Figma](#)** *(substituir pelo link real)*.
 Abaixo, os wireframes das principais telas.
 
 ### 1. Tela inicial (Cliente)
@@ -327,7 +320,7 @@ pedeai/
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/seu-usuario/pedeai.git
+git clone https://github.com/Rau11910/PedeAi
 cd pedeai
 
 # 2. Configurar variáveis de ambiente
